@@ -1,0 +1,250 @@
+<div class="container"
+    style="background-color:rgb(242, 245, 247);height: 650px;overflow-y: auto;padding: 0;max-width: 100%;">
+    <header>
+        <nav class="navbar navbar-expand-md d-flex">
+
+            <div class="d-flex justify-content-end">
+                <a class="navbar-brand d-flex ps-md-5 flex-grow-1 order-2" href="#">
+                    <h1>Rent It!</h1>
+                </a>
+                <button class="navbar-toggler ms-3 me-2 d-flex flex-grow-0 order-1 d-md-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <i class="bi bi-person-circle mb-2 fs-3 order-3 ps-1 pe-3"></i>
+
+            <div class="offcanvas offcanvas-start d-flex w-auto" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="main-logo">
+                        <h4>Rent It!</h4>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="float: right;"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-primary me-2 btn-sm">Login</button>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="slidingContent">
+            <div class="about_section layout_padding">
+                <div class="container">
+                    <div class="about_section_2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="about_taital_box">
+                                    <h2 class="about_taital">Find Your Perfect Home Today!</h2>
+                                    <p class=" about_text">Don't settle for anything less! Explore a wide variety of rentals and find the perfect fit for your lifestyle and budget. Our listings cater to diverse lifestyles and budgets, so you're sure to find the perfect fit.</p>
+                                    <span class="d-flex justify-content-end"><p class="px-3">To search please login <i class="bi bi-arrow-right-circle"></i></p><button class="btn btn-outline-primary me-2 btn-lg">Login</button></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="carouselExampleCaptions" class="carousel slide p-2" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="assets/images/home_1.jpeg" class="d-block w-100" alt="...">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5 class="text-white">First slide label</h5>
+                                                <p class="fs-6 text-white">Some representative placeholder content for the first slide.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="assets/images/home_2.jpeg" class="d-block w-100" alt="...">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Second slide label</h5>
+                                                <p>Some representative placeholder content for the second slide.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="assets/images/home_3.jpeg" class="d-block w-100" alt="...">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="mapcontent" class="layout_padding" style="padding-left:2rem;padding-right:2rem;">
+            <div class="row justify-content-md-center">
+
+                <div class="col-12 col-lg-8 border border-dark">
+                    <div id="map" style="height: 400px;"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container padding-medium">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 my-3">
+                    <div class="footer-menu">
+                        <a href="index.html">
+                        <!-- <img src="images/logo.png" alt="logo" class="img-fluid"> -->
+                        <h1>Rent It!</h1>
+                        </a>
+                        <div class="social-links mt-4">
+                            <ul class="d-flex list-unstyled ">
+                                <li class="me-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="me-4">
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                                <li class="me-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="me-4">
+                                    <a href="#">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="me-4">
+                                    <a href="#">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-3">
+                    <div class="footer-menu">
+                        <h5 class=" fw-bold mb-4">Quick Links</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Home</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">About us</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Courses</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Blogs</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-3">
+                    <div class="footer-menu">
+                        <h5 class=" fw-bold mb-4">About</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">How It Works</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Pricing</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Promotion</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Affilation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-3">
+                    <div class="footer-menu">
+                        <h5 class=" fw-bold mb-4">Help Center</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Payments</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">FAQs</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Checkout</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Other</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 my-3">
+                    <div class="footer-menu">
+                        <h5 class=" fw-bold mb-4">Contact Us</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">contact&#64;yourcompany</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">+91 45875 62445</a>
+                            </li>
+                            <li class="menu-item mb-2">
+                                <a href="#" class="footer-link">Bhubaneswar, INDIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>© 2024 RentIt Pvt. Ltd. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
